@@ -1,0 +1,599 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    background-color: #ffffff;
+    padding: 10px 50px;
+}
+
+.navbar .navbar-brand{
+    font-size: 30px;
+    font-weight: 600;
+    opacity: 1;
+    color: #0B28D9;
+}
+
+.navbar .navbar-brand:hover{
+    opacity: 0.9;
+    color: #0b28d9;
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-link{
+    font-size: 17px;
+    font-weight: 600;
+    opacity: 0.9;
+    color: #000000;
+    margin-left: 30px;
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-link:hover{
+    opacity: 0.8;
+    color: #828284;
+}
+
+.banner{
+    width: 100%;
+    height: 89vh;
+}
+
+.banner .row .banner-content{
+    width: 50%;
+    height: 89vh;
+    padding: 200px 50px;
+    text-align: center;
+}
+
+.banner .row .banner-content h5{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.banner .row .banner-content h5 span{
+    color: #0b28d9;
+}
+
+.banner .row .banner-content button{
+    margin-top: 50px;
+    font-weight: 400;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.banner .row .banner-video{
+    width: 50%;
+    height: 89vh;
+}
+
+.banner .row .banner-video img{
+    width: 100%;
+    height: auto;
+    border: 1px solid gray;
+    border-radius: 20px;
+    box-shadow: 0px 5px 5px gray;
+}
+
+.education img{
+    width: 270px;
+    height: 200px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    box-shadow: 0px 5px 5px gray;
+}
+
+.doubts{
+    padding: 50px;
+}
+
+.doubts h3{
+    font-size: 50px;
+    font-weight: 700;
+    opacity: 0.9;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+.doubts h3 span{
+    color: #0b28d9;
+}
+
+.doubts .doubts-content{
+    margin-bottom: 30px;
+}
+
+.doubts .doubts-content h5 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.doubts .doubts-content p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.doubts .text-right img{
+    width: 80%;
+    height: 500px;
+}
+
+.working{
+    padding: 50px 0px;
+}
+
+.working h5{
+    text-align: center;
+    color: #0b28d9;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.classes{
+    padding: 50px 30px;
+}
+
+.classes .classes-title{
+    text-align: center;
+    color: #000000;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    opacity: 0.8;
+}
+
+.classes .classes-title span{
+    color: #0b28d9;
+    opacity: 1;
+}
+
+.classes .classes-image img{
+    width: 100%;
+    height: auto;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 0px 15px 29px gray;
+}
+
+.classes .classes-content{
+    padding: 80px 0px;
+}
+
+.classes .doubts-content{
+    margin-bottom: 30px;
+}
+
+.classes .doubts-content h5 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.classes .doubts-content p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.classes .classes-footer h5{
+    color: #0b28d9;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.classes .classes-footer button{
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.preparations{
+    padding: 50px;
+}
+
+.preparations h5{
+    text-align: center;
+    color: #000000;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    opacity: 0.8;
+}
+
+.preparations h5 span{
+    color: #0b28d9;
+    opacity: 1;
+}
+
+.preparations .row img{
+    width: 100%;
+    height: auto;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px gray;
+}
+
+.preparations .row .preparations-content{
+    padding: 100px 0px;
+}
+
+.preparations .row .preparations-heading{
+    color: #0b28d9;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.preparations .row .preparations-subheading{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.preparations .row button{
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.subjects {
+    padding: 100px 50px;
+}
+
+.subjects h5{
+    text-align: center;
+    color: #0b28d9;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    opacity: 1;
+}
+
+.subjects .row img{
+    width: 270px;
+    height: 200px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px gray;
+}
+
+.subjects p{
+    text-align: right;
+    color: #FB2A2A;
+    margin: 20px 25px 20px 0px;
+}
+
+.books{
+    padding: 50px;
+}
+
+.books h5{
+    text-align: center;
+    color: #000000;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    opacity: 1;
+}
+
+.books h5 span{
+    color: #0b28d9;
+}
+
+.books p{
+    text-align: center;
+    color: #000000;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.books .row img{
+    height: 200px;
+    width: 270px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px gray;
+}
+
+.experts{
+    padding: 50px 100px;
+}
+
+.experts h5{
+    text-align: center;
+    color: #000000;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    opacity: 0.8;
+}
+
+.experts .row .cards-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.experts .row .cards-details{
+    padding: 10px 20px;
+    margin: 0 30px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px gray;
+}
+
+
+.experts .row .cards-details .name{
+    color: #0b28d9;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.students{
+    padding: 50px;
+}
+
+.students h5{
+    text-align: center;
+    color: #000000;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    opacity: 0.8;
+}
+
+.students .row .text-center img{
+    width: 100%;
+    height: auto;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 0px 20px 25px gray;
+}
+
+.students .row .cards-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.students .row .cards-details{
+    padding: 10px 20px;
+    margin: 0 30px;
+    width: 40%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px gray;
+}
+
+.students .row .cards-details .name{
+    color: #0b28d9;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.students button {
+    display: block;
+    width: 300px;
+    margin: 100px auto 30px auto; 
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 576px) {
+    .navbar{
+        padding: 10px 10px;
+    }
+    .navbar .navbar-collapse .navbar-nav .nav-link{
+        margin-left: 10px;
+    }
+    .banner {
+        width: 100%;
+        height: auto;
+    }
+    .banner .row .banner-content{
+        width: 90vw;
+        height: 30vh;
+        padding: 20px;
+    }
+    .banner .row .banner-content h5{
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    .banner .row .banner-content button {
+        margin-top: 10px;
+    }
+    .banner .row .banner-video{
+        width: 90vw;
+        height: auto;
+        padding-top: 0px;
+        margin-bottom: 100px;
+    }
+    .doubts{
+        padding: 20px 0px;
+    }
+    .doubts h3 {
+        font-size: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .doubts .doubts-content h5 {
+        font-size: 25px;
+    }
+    .working h5 {
+        font-size: 40px;
+    }
+    .classes {
+        padding: 50px 10px;
+    }
+    .classes .classes-title {
+        font-size: 40px;
+    }
+    .classes .classes-content {
+        padding: 20px 0px;
+    }
+    .classes .doubts-content h5 {
+        font-size: 25px;
+    }
+    .preparations {
+        padding: 20px 10px;
+    }
+    .preparations h5 {
+        font-size: 25px;
+    }
+    .preparations .row .preparations-content {
+        padding: 30px 0px;
+    }
+    .preparations .row .preparations-heading {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .preparations .row .preparations-subheading {
+        font-size: 15px;
+    }
+    .subjects {
+        padding: 50px 10px;
+    }
+    .subjects h5 {
+        font-size: 30px;
+    }
+    .books {
+        padding: 30px 10px;
+    }
+    .books h5 {
+        font-size: 25px;
+    }
+    .books p {
+        font-size: 20px;
+    }
+    .experts {
+        padding: 30px 10px;
+    }
+    .experts h5 {
+        font-size: 25px;
+    }
+    .students {
+        padding: 30px 10px;
+    }
+    .students h5 {
+        font-size: 25px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 576px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .navbar{
+        padding: 10px 50px;
+    }
+    .navbar .navbar-collapse .navbar-nav .nav-link{
+        margin-left: 30px;
+    }
+    .banner {
+        width: 100%;
+        height: 89vh;
+    }
+    .banner .row .banner-content{
+        width: 50%;
+        height: 89vh;
+        padding: 200px 50px;
+    }
+    .banner .row .banner-content h5{
+        font-size: 3rem;
+        font-weight: 600;
+        color: #000000;
+        opacity: 0.8;
+    }
+    .banner .row .banner-content button {
+        margin-top: 50px;
+    }
+    .banner .row .banner-video{
+        width: 50%;
+        height: 89vh;
+        padding-top: 90px;
+    }
+    .doubts{
+        padding: 50px;
+    }
+    .doubts h3 {
+        font-size: 50px;
+        margin-bottom: 40px;
+        text-align: left;
+    }
+    .doubts .doubts-content h5 {
+        font-size: 30px;
+    }
+    .working h5 {
+        font-size: 50px;
+    }
+    .classes {
+        padding: 50px 30px;
+    }
+    .classes .classes-title {
+        font-size: 50px;
+    }
+    .classes .classes-content {
+        padding: 80px 0px;
+    }
+    .classes .doubts-content h5 {
+        font-size: 30px;
+    }
+    .preparations {
+        padding: 50px;
+    }
+    .preparations h5 {
+        font-size: 40px;
+    }
+    .preparations .row .preparations-content {
+        padding: 100px 0px;
+    }
+    .preparations .row .preparations-heading {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .preparations .row .preparations-subheading {
+        font-size: 25px;
+    }
+    .subjects {
+        padding: 100px 50px;
+    }
+    .subjects h5 {
+        font-size: 50px;
+    }
+    .books {
+        padding: 50px;
+    }
+    .books h5 {
+        font-size: 50px;
+    }
+    .books p {
+        font-size: 25px;
+    }
+    .experts {
+        padding: 50px 100px;
+    }
+    .experts h5 {
+        font-size: 50px;
+    }
+    .students {
+        padding: 50px;
+    }
+    .students h5 {
+        font-size: 50px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
